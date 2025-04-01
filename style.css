@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e21111;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    color: #1f1e1e;
+    text-align: center;
+}
+
+/* Ordered List Styling */
+ol {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/* Image Styling */
+.featured-image {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #04eb7f;
+    border-radius: 10px;
+}
+
+/* Table Styling */
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgb(105, 82, 82);
+}
+.contact-table th, .contact-table td {
+    border: 1px solid #1f036b;
+    padding: 10px;
+    text-align: left;
+}
+.contact-table th {
+    background-color: #333;
+    color: rgb(90, 238, 22);
+}
+
+/* Form Styling */
+.registration-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: auto;
+}
+.registration-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.registration-form input, .registration-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit Button Styling */
+.registration-form input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.registration-form input[type="submit"]:hover {
+    background-color: #218838;
+}
